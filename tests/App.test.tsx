@@ -5,12 +5,12 @@ import App from '../src/components/App';
 
 it('App is rendered', () => {
     // Render App in the document
-  const appElement: App = TestUtils.renderIntoDocument(
+  const appElement = TestUtils.renderIntoDocument(
     <App/>,
-  );
+  ) as React.Component;
 
   const appNode = ReactDOM.findDOMNode(appElement);
 
-    // Verify text content
+  // Verify text content
   expect(appNode.textContent).toEqual('Hello World!Foo to the barz');
 });

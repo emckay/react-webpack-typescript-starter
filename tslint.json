@@ -22,7 +22,8 @@
     "object-literal-sort-keys": false,
     "no-empty-interface": false,
     "no-unused-variable": true,
-    "prefer-conditional-expression": false
+    "prefer-conditional-expression": false,
+    "no-submodule-imports": false
   },
   "defaultSeverity": "error"
 }
