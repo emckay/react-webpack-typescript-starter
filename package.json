@@ -61,6 +61,8 @@
     "stylelint-config-standard": "^18.0.0",
     "stylelint-webpack-plugin": "^0.9.0",
     "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.6.2",
     "uglifyjs-webpack-plugin": "^1.1.4",
     "webpack": "^3.10.0",

@@ -1,53 +1,8 @@
 {
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-airbnb"],
   "rules": {
-    "class-name": true,
-    "comment-format": [
-      true,
-      "check-space"
-    ],
-    "indent": [
-      true,
-      "spaces"
-    ],
-    "no-eval": true,
-    "no-internal-module": true,
-    "no-trailing-whitespace": true,
-    "no-unsafe-finally": true,
-    "no-var-keyword": true,
-    "one-line": [
-      true,
-      "check-open-brace",
-      "check-whitespace"
-    ],
-    "quotemark": [
-      true,
-      "double"
-    ],
     "semicolon": [
-      true,
-      "always"
-    ],
-    "triple-equals": [
-      true,
-      "allow-null-check"
-    ],
-    "typedef-whitespace": [
-      true,
-      {
-        "call-signature": "nospace",
-        "index-signature": "nospace",
-        "parameter": "nospace",
-        "property-declaration": "nospace",
-        "variable-declaration": "nospace"
-      }
-    ],
-    "whitespace": [
-      true,
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-separator",
-      "check-type"
+      "never"
     ],
     "jsx-no-multiline-js": ["never"],
     "jsx-boolean-value": ["never"],
@@ -55,12 +10,19 @@
       true, "allow-pascal-case", "allow-leading-underscore"
     ],
     "ter-arrow-parens": ["never"],
-    "ordered-imports": ["never"],
-    "import-name": ["never"],
-    "max-line-length": [false],
+    "ordered-imports": [
+      "never"
+    ],
+    "import-name": [
+      "never"
+    ],
+    "max-line-length": [
+      false
+    ],
     "object-literal-sort-keys": false,
     "no-empty-interface": false,
     "no-unused-variable": true,
     "prefer-conditional-expression": false
-  }
+  },
+  "defaultSeverity": "error"
 }
